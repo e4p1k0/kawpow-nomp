@@ -196,7 +196,7 @@ module.exports = function() {
       };
     }
 
-    var authorizeFN = function(ip, port, workerName, password, callback) {
+    var authorizeFN = function(ip, port, workerName, password, extraNonce1, version, callback) {
       handlers.auth(port, workerName, password, function(authorized) {
 
         var authString = authorized ? 'Authorized' : 'Unauthorized ';
