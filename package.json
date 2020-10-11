@@ -74,7 +74,7 @@
         "semver": "^5.7.1",
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
-        "stratum-pool": "git://github.com/EasyX-Community/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/e4p1k0/kawpow-stratum-pool.git",
         "winston": "^3.1.0",
         "winston-daily-rotate-file": "^3.5.1",
         "winston-transport": "^4.3.0"
