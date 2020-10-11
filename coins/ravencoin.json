@@ -1,15 +1,15 @@
 {
     "name": "ravencoin",    
     "symbol": "RVN",    
-    "algorithm": "x16r",
+    "algorithm": "kawpow",
     
-    "wallet": "https://github.com/xagau/Placeholders-X16R",
+    "wallet": "https://ravencoin.org/wallet/",
 
-    "explorer":"https://rvn.easyxpool.tk/",
+    "explorer":"https://ravencoin.network",
     
-    "explorerGetBlockJSON": "http://rvnhodl.com/api/getrawtransaction?decrypt=1&txid=",
-    "explorerGetBlock": "http://rvnhodl.com/block/",
-    "explorerGetTX": "http://rvnhodl.com/tx/",
+    "explorerGetBlockJSON": "https://ravencoin.network/api/block/",
+    "explorerGetBlock": "https://ravencoin.network/block/",
+    "explorerGetTX": "https://ravencoin.network/tx/",
     
     "blockTime": 60,
     "blockChange": 1
